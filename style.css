@@ -88,6 +88,10 @@ i:hover {
 .banner-info button i {
   margin-left: 8px;
 }
+.banner-img {
+  background: url(images/Circle\ design.svg);
+  background-size: 100% 100%;
+}
 .banner-img img {
   width: 100%;
 }
@@ -354,7 +358,7 @@ footer p {
     width: 50%;
     margin-right: 15px;
   }
-  .banner-img{
+  .banner-img {
     width: 50%;
   }
   .companies {
