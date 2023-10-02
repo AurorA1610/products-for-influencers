@@ -47,12 +47,6 @@ nav {
   cursor: pointer;
 }
 
-.nav-items a:hover,
-i:hover {
-  color: black;
-  transition: 0.3s;
-}
-
 /* banner styles */
 .banner {
   margin-top: 80px;
@@ -85,6 +79,7 @@ i:hover {
   border: none;
   cursor: pointer;
 }
+
 .banner-info button i {
   margin-left: 8px;
 }
@@ -246,6 +241,14 @@ footer p {
   background: #ffffff15;
   padding: 8px;
   border-radius: 20px;
+}
+button:hover {
+  background: #3a3a3a;
+  transition: 300ms;
+}
+.see-more a:hover {
+  color: #3a3a3a;
+  transition: 300ms;
 }
 
 /* Responsiveness */

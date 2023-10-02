@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Influencer Products</title>
-
     <!-- stylesheet  -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- font awesome -->
     <script
@@ -33,7 +33,7 @@
         </div>
       </nav>
       <!-- banner -->
-      <section class="banner">
+      <section class="banner" data-aos="fade-in">
         <div class="banner-info">
           <h1>Start your Journey as Influencer</h1>
           <p>
@@ -50,7 +50,7 @@
 
     <main>
       <!-- companies section -->
-      <section class="companies">
+      <section class="companies" data-aos="fade-in">
         <div><img src="logos/Alibaba.svg" alt="" /></div>
         <div><img src="logos/Amazon.svg" alt="" /></div>
         <div><img src="logos/Daraz.pk Logo.svg" alt="" /></div>
@@ -64,7 +64,7 @@
       <section class="popular-collections">
         <h1>Popular Collection</h1>
         <div class="collections">
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/tripod.png" alt="" />
             </div>
@@ -85,7 +85,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/mic.png" alt="" />
             </div>
@@ -106,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/airpod.png" alt="" />
             </div>
@@ -127,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/drone.png" alt="" />
             </div>
@@ -148,7 +148,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/lights.png" alt="" />
             </div>
@@ -169,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/setup.png" alt="" />
             </div>
@@ -190,7 +190,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/camera.png" alt="" />
             </div>
@@ -211,7 +211,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/single-light.png" alt="" />
             </div>
@@ -232,7 +232,7 @@
               </div>
             </div>
           </div>
-          <div class="collection">
+          <div class="collection" data-aos="fade-in">
             <div class="collection-img">
               <img src="images/action.png" alt="" />
             </div>
@@ -260,7 +260,7 @@
       </section>
 
       <!-- featured section -->
-      <section class="featured">
+      <section class="featured" data-aos="fade-in">
         <div class="featured-img">
           <img src="images/gear.png" alt="" />
         </div>
@@ -286,5 +286,9 @@
         <i class="fa-brands fa-youtube"></i>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 3000, once: true });
+    </script>
   </body>
 </html>
